@@ -1,0 +1,168 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Page</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        h1 {
+            color: wheat;
+            text-align: center;
+        }
+
+        h1::after {
+            content: '';
+            display: block;
+            height: 4px;
+            width: 370px;
+            background-color: white;
+            transition: 4s;
+            margin: auto;
+            scale: 0;
+            transform: translate(10px, 0px);
+        }
+
+        h1:hover::after {
+            scale: 1;
+        }
+
+        .imgler1 {
+            height: 400px;
+            background-color: white;
+        }
+
+        .card {
+            width: 30.25%;
+            margin: 1.25%;
+            height: 350px;
+            filter: drop-shadow(0 0 8px);
+            transition: 2s;
+        }
+
+        .card:hover {
+            filter: drop-shadow(0 0 15px);
+            scale: 1.03;
+        }
+
+        .img1 {
+            background: url(./img/trump\ hotel.JPG) center/cover;
+            float: left;
+        }
+
+        .img2 {
+            background: url(./img/44103227.jpg) center /cover;
+            float: left;
+        }
+
+        .img3 {
+            background: url(./img/hotel\ ici.jpg) center / cover;
+            float: left;
+        }
+
+        h2 {
+            color: wheat;
+            text-align: center;
+        }
+
+        h2::after {
+            content: '';
+            border: none;
+            cursor: pointer;
+            height: 4px;
+            width: 300px;
+            background-color: white;
+            display: block;
+            transition: 4s;
+            scale: 0;
+            margin: auto;
+            transform: translate(0px, 0px);
+        }
+
+        h2:hover::after {
+            scale: 1;
+        }
+
+        .content2 {
+            width: 100%;
+            height: 500px;
+        }
+        .img4{
+            background: url(./img/trump\ hotel.JPG) center / cover;
+            width: 500px;
+            height: 450px;
+            float: left;
+            border: none;
+            outline: none;
+            position: relative;
+        }
+        .img4::before{
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            top: 0;
+            transition: 0.5s;
+            border: solid 5px white;
+        }
+        .img4:hover::before{
+            bottom: -10px;
+            left: -10px;
+            right: -10px;
+            top: -10px;
+        }
+     
+        .box1{
+            color: wheat;
+            width: 900px;
+            height: 350px;
+            float: left;
+            margin: 10px 10px 10px 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <head>
+        <h1>Trump International Hotel</h1>
+    </head>
+    <div class="imgler1">
+        <div class="img1 card"></div>
+        <div class="img2 card"></div>
+        <div class="img3 card"></div>
+    </div>
+    <hr>
+
+    <div class="content2">
+            <h2>Trump-Hotel & Haqqinda</h2>
+         <div class="img4"></div>   
+         <div class="box1">
+            <p>
+                Trump International Hotel and Tower (bazen Trump Tower Chicago veya Trump Tower), ABD'nin Chicago kentinde yer alan bir otel ve gökdelendir. Bina Chicago'nun şehir merkezinde Chicago Nehri'nin kıyısında yer almaktadır. İnşaatına 17 Mart 2005 tarihinde başlanmış olup 30 Ocak 2009 tarihinde açılmıştır. Bina 423.4 metre yüksekliğinde ve 98 katlı olup Chicago'nun ikinci yüksek, ABD'nin dördüncü yüksek ve dünyanın 20. yüksek binasıdır.Dünyanın en yüksek yapıları belirlenirken genellikle doğrudan tanım yapmak mümkünse de, dünyanın en yüksek binasını ya da kulesini belirlemek o kadar kolay olmamaktadır. Bunun nedenleri ya bina ve kule dendiği zaman tam olarak ne kastedildiğinin ya da bunların ölçümlerinin nasıl yapıldığının tartışmalı olmasıdır. Ulusal ve yerel prestij sorunları farklı insanların farklı cevapları kabul etmesine neden olmaktadır. Yani nesnel bir yaklaşım belirlemek oldukça zordur.
+
+                Kesin yükseklik söz konusu olduğunda en yüksek yapılar genellikle gökdelenlerdir Buna rağmen hâlen bazı soru işaretleri bulunmaktadır:
+                
+                listeye hala yapım aşamasında bulunan yapılar dahil edilmeli midir?
+                suda yükselen binaların suyun altında kalan kısımları yüksekliklerine dahil edilebilir mi?
+                Kuleler söz konusu olduğunda şöyle bir tartışma da ortaya çıkar:
+                
+                çelik kablo /gergi teli destekli kuleler sayılabilir mi?
+                Binalar için şu tartışmalar söz konusudur:
+                
+                iletişim kulelerindeki gözlem odaları yaşanılabilir sayılmalarını sağlar mı?
+                sadece yaşanılabilir kısımların yüksekliği mi sayılmalıdır?
+                çatılardaki antenler binaların yükseklik ölçümlerine dahil edilebilirler mi? (bu özellikle bazı binalardaki helezon kulelerin yerine göre anten, yerine göre mimari bir detay olarak varsayıldığı durumlarda ön plana çıkar)
+                Genel olarak baktığımızda bir nesnenin özellikleri,yapısı, tarihi geçmişi,ölçme birimi farklılık gösterebiliceğinden bu tarz yapılar arasında karşılaştırma yapmak zor olmaktadır.
+            </p>
+         </div>     
+    </div>
+
+
+</body>
+
+</html>

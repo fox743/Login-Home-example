@@ -1,0 +1,82 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Page</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .container1 {
+            width: 400px;
+            height: 300px;
+            background-color: wheat;
+            justify-content: center;
+            position: absolute;
+            top: 200px;
+            left: 600px;
+            right: 300px;
+            border-radius: 10%;
+        }
+
+        h1 {
+            text-align: center;
+        }
+        form{
+            text-align: center;
+        }
+        button{
+            cursor: pointer;
+            background-color: skyblue;
+            transition: .4s;
+            box-shadow: 0 0 5px wheat,
+            0 0 15px wheat;
+            border: none;
+        }
+        button:hover{
+            box-shadow: 0 0 5px rgba(0, 255, 255, 0.8),
+            0 0 25px rgba(0, 255, 255, 0.7),
+            0 0 50px rgba(0, 255, 255, 0.6),
+            0 0 75px rgba(0, 255, 255, 0.5);
+            color: white;
+        }
+        .reset{
+            background-color: skyblue;
+            border: none;
+            cursor: pointer;
+            background-color: skyblue;
+            transition: .4s;
+            box-shadow: 0 0 5px wheat,
+            0 0 15px wheat;
+        }
+        .reset:hover{
+            box-shadow: 0 0 5px rgba(0, 255, 255, 0.8),
+            0 0 25px rgba(0, 255, 255, 0.7),
+            0 0 50px rgba(0, 255, 255, 0.6),
+            0 0 75px rgba(0, 255, 255, 0.5);
+            color: white; 
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container1">
+        <h1>Trump International Hotel Register</h1>
+        <form action="second.html">
+            <label>
+               Ad: <input type="text">
+            </label> <br> <br>
+            <label>
+                Email:<input type="email">
+            </label> <br> <br>
+            <label>
+                Kart-Kodu:<input type="number">
+            </label><br><br>
+            <button>Gonder</button>
+            <input type="reset" class="reset">
+        </form>
+    </div>
+</body>
+
+</html>
